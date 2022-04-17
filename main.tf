@@ -15,10 +15,10 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "lak" {
-  bucket = "my-laktf-test-bucket-sl"
+  bucket = "mylaktf-test-bucket-sl"
 
   tags = {
-    Name        = "My bucket"
+    Name        = "MyLakbucket"
     Environment = "Dev"
   }
 }
