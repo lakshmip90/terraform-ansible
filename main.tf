@@ -14,8 +14,8 @@ provider "aws" {
   region  = "us-east-1"
 }
 
-resource "aws_s3_bucket" "b" {
-  bucket = "my-tf-test-bucket-sl"
+resource "aws_s3_bucket" "lak" {
+  bucket = "my-laktf-test-bucket-sl"
 
   tags = {
     Name        = "My bucket"
